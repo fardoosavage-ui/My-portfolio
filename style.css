@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {background-color: rgb(32, 32, 63);
+    color:azure
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background-color: rgb(1, 12, 8);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 25px;
+    color:azure;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a {
+    font-size: 18px;
+    color:azure;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .4s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: rgb(37, 146, 154);
+}
+
+.home {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.home-content {
+    max-width: 600px;
+}
+
+.home-content h1 {
+    font-size: 50px;
+    font-weight:700;
+}
+
+.home-content h3 {
+    font-size: 32px;
+    font-weight: 700;
+    color: rgb(72, 181, 189)
+}
+
+.home-content p {
+    font-size: 20px
+}
+
+.hm-img-1 {
+    height: 500px;
+    width: 500px;
+}
+
+.skill-hd{
+    text-align: center;
+    font-size: 45px;
+}
+.skill-content{
+    display: flex;
+    justify-content: center;   
+    gap: 5rem;                
+    margin-top: 5rem;
+}
+.skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    text-align: center;    
+    max-width: 300px;
+    background: #5b5f73;
+    background: radial-gradient(circle, rgb(55, 72, 156) 0%, rgb(26, 88, 103) 100%);
+    padding: 2rem;
+    border-radius: 2rem;
+    border: 2px solid white;
+    box-shadow: 0 0 20px rgba(102, 94, 94, 0.7);
+     transition: all 0.5s ease;
+}
+.skills:hover{
+    transform: translateY(-10px);
+}
+.form-content{
+    font-size: 35px;
+    padding: 6rem;
+}
+.form{
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-family: Karla;
+  font-size: 25px;
+}
+.form input {
+    width: 400px;      
+    padding: 10px;      
+    font-size: 18px;    
+    margin-top: 0.5rem; 
+    margin-bottom: 1rem;
+    border-radius: 8px; 
+    border: 1px solid #030718;
+    box-shadow: 0 0 5px rgba(17, 3, 3, 0.7);
+}
+.form-page {
+    display: flex;              
+    justify-content: center;   
+    align-items: flex-start;   
+    gap: 5rem;                  
+    padding: 6rem;            
+    flex-wrap: wrap;           
+}
+.btn-2{
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.btn-2:hover{
+    transition: all 0.5s ease;
+    transform: scale(1.05);
+}
+.form-img{
+    height: 500px;
+    width: 500px;
+    transform: translateY(100px); 
+}
+.footer{
+    font-size: 18px;
+}
